@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background:hsl(212, 45%, 89%);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+  }
+  
+  section {
+    height: 75%;
+    width: 90%; 
+    max-width: 400px; 
+    background:hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px; 
+  }
+  
+  .imgCard {
+    height: 250px; 
+    width: 250px; 
+    margin-bottom: 20px; 
+  }
+  
+  img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .content-area {
+    width: 100%;
+    text-align: center; 
+  }
+  
+  h4 {
+    color: hsl(218, 44%, 22%); 
+    font-weight: 700;
+    margin-bottom: 5px; 
+  }
+  
+  p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    margin-bottom: 10px; /* Added margin for spacing */
+  }
+  
